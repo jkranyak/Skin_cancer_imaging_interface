@@ -114,3 +114,10 @@ To run this project, ensure you have the following dependencies installed:
 ## Additional Information
 
 - For more information about the ISIC dataset and skin lesion classification, you can refer to the [official ISIC website](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery).
+<<<<<<< HEAD
+=======
+
+---
+
+
+>>>>>>> refs/remotes/origin/main
