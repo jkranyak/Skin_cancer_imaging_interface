@@ -1,8 +1,19 @@
-# Skin Lesion Classification Project README
+# Skin Lesion Classification Project
+
+This project focuses on classifying skin lesions using deep learning techniques. The dataset used for training and testing the model is the ISIC 2019 dataset, which consists of images of various skin lesions along with associated metadata.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Data Preparation](#data-preparation)
+- [Model Training and Evaluation](#model-training-and-evaluation)
+- [Additional Information](#additional-information)
 
 ## Overview
 
-This project focuses on classifying skin lesions using deep learning techniques. The dataset used for training and testing the model is the ISIC 2019 dataset, which consists of images of various skin lesions along with associated metadata.
+This project aims to classify skin lesions into different categories using deep learning models. It utilizes the ISIC 2019 dataset, which contains images of skin lesions along with metadata such as age, sex, and diagnosis.
 
 ## Requirements
 
@@ -103,7 +114,3 @@ To run this project, ensure you have the following dependencies installed:
 ## Additional Information
 
 - For more information about the ISIC dataset and skin lesion classification, you can refer to the [official ISIC website](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery).
-
----
-
-The provided code includes model training, evaluation, and interpretation using Grad-CAM visualization. You can customize it according to your specific project requirements. Let me know if you need further assistance!
