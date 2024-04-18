@@ -161,4 +161,4 @@ This section provides an in-depth overview of the model training and evaluation 
 - For more information about the ISIC dataset and skin lesion classification, you can refer to the [official ISIC website](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery).
 
 
-# Directory Structure
+## Directory Structure
