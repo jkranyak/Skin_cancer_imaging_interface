@@ -154,3 +154,8 @@ Deploy the trained model in a production environment for real-world applications
 ---
 
 This section provides an in-depth overview of the model training and evaluation process, covering model architecture, training procedures, evaluation metrics, interpretation techniques, and deployment considerations. It serves as a comprehensive guide for understanding and implementing the skin lesion classification model.
+
+
+## Additional Information
+
+- For more information about the ISIC dataset and skin lesion classification, you can refer to the [official ISIC website](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery).
