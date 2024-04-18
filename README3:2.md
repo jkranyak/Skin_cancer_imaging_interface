@@ -12,6 +12,7 @@ This project focuses on classifying skin lesions using deep learning techniques.
 - [Data Preparation](#data-preparation)
 - [Model Training and Evaluation](#model-training-and-evaluation)
 - [Additional Information](#additional-information)
+- [Directory Structure](#Directory-Structure)
 
 ## Overview
 
