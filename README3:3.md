@@ -19,8 +19,9 @@
    - 4.3 [Callbacks for Model Training](#callbacks-for-model-training)
    - 4.4 [Evaluation Metrics and ROC Curves](#evaluation-metrics-and-roc-curves)
    - 4.5 [Usage and Disclaimer](#usage-and-disclaimer)
-5. [Future Directions](#future-directions)
-6. [References](#references)
+5. [CancerNet-SCa: Deep Neural Network for Skin Cancer Detection](#CancerNet-SCa: Deep Neural Network for Skin Cancer Detection)
+6. [Future Directions](#future-directions)
+7. [References](#references)
 
 ## 1. Project Description
 This project focuses on classifying skin lesions using deep learning techniques. The ISIC 2019 dataset, containing images of various skin lesions and associated metadata, is used for model training and testing.
@@ -59,6 +60,47 @@ Configuration of callbacks such as EarlyStopping and ModelCheckpoint for efficie
 Evaluation of model performance using metrics such as ROC curves and AUC values.
 ### 4.5 Usage and Disclaimer
 Instructions on how to use the user interface and a disclaimer regarding the limitations of model predictions.
+
+
+# 5. CancerNet-SCa: Deep Neural Network for Skin Cancer Detection
+
+CancerNet-SCa is a groundbreaking deep neural network architecture meticulously crafted for the explicit purpose of detecting skin cancer from dermoscopy images. Developed as part of the Cancer-Net initiative, this model represents a significant leap forward in the realm of computer-aided diagnosis for dermatological conditions. Below is a detailed overview of its key features and functionalities:
+
+## Motivation and Background:
+- Skin cancer stands as the most prevalent form of cancer diagnosed in the U.S., not only posing substantial threats to health and well-being but also incurring significant economic burdens due to treatment costs.
+- Early detection plays a pivotal role in the effective treatment and management of skin cancer, with promising prognoses associated with timely intervention, particularly through methodologies such as dermoscopy examination.
+
+## Inspiration and Development:
+- Inspired by the remarkable advancements in deep learning methodologies and spurred by the ethos of open-source collaboration prevalent in the research community, [CancerNet-SCa](https://arxiv.org/abs/2011.10702) was conceived and developed.
+- It represents a suite of deep neural network designs meticulously tailored to tackle the challenge of skin cancer detection from dermoscopy images.
+
+## Design and Features:
+- CancerNet-SCa marks the first instance of machine-designed deep neural network architectures explicitly optimized for skin cancer detection.
+- Among its innovative design elements is the incorporation of attention condensers, facilitating an efficient self-attention mechanism aimed at enhancing detection accuracy.
+- These designs exhibit superior performance metrics when compared to established architectures like ResNet-50, achieving commendable accuracy while simultaneously reducing both architectural complexity and computational overhead.
+
+## Performance and Decision Making:
+- Extensive experimentation and evaluation utilizing datasets such as the International Skin Imaging Collaboration (ISIC) dataset underscore CancerNet-SCa's robust performance in skin cancer detection.
+- Notably, the model demonstrates an ability to discern diagnostically relevant critical factors, eschewing irrelevant visual indicators and imaging artifacts, thereby bolstering diagnostic accuracy.
+
+## Open Source and Encouragement:
+- CancerNet-SCa represents a significant contribution to the open-source landscape, being made readily available to researchers, clinicians, and citizen data scientists.
+- While not positioned as a production-ready screening solution, its release in [open-source, open-access](https://arxiv.org/abs/2011.10702) format is intended to catalyze further advancements in skin cancer detection methodologies through collaborative exploration and refinement.
+
+## Model Architecture:
+- CancerNet-SCa embodies a multi-input, binary classification model capable of assimilating both image and metadata features.
+- Its architecture comprises convolutional and pooling layers for image processing, alongside dense layers for metadata analysis, with the two branches concatenated for subsequent processing.
+- The model leverages a pre-trained convolutional neural network (CNN) for image input, possibly utilizing architectures like VGG16 or ResNet50.
+
+## Binary Classifier and Tuning:
+- Engineered for binary classification, CancerNet-SCa employs a sigmoid activation function in its output layer, with binary cross-entropy loss function and accuracy as evaluation metrics.
+- To address data imbalances inherent in skin cancer datasets, the model utilizes class weights to ensure equitable learning.
+
+## Additional Features:
+- CancerNet-SCa incorporates various optimization strategies, including data augmentation for image inputs and callbacks such as early stopping and model checkpointing during training.
+- Its training regimen encompasses a dataset rich in both image and metadata features, including patient-specific information such as age and sex, augmenting the model's diagnostic capabilities.
+
+In summation, [CancerNet-SCa](https://arxiv.org/abs/2011.10702) stands as a testament to the transformative potential of deep learning methodologies in the domain of medical imaging analysis. Its development heralds a new era of precision diagnostics for dermatological conditions, underpinned by the principles of collaboration, transparency, and accessibility.
 
 ## 5. Future Directions
 Potential enhancements and directions for future development, including model expansion and integration with medical systems.
