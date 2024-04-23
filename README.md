@@ -51,6 +51,7 @@ Explore techniques such as knowledge distillation and fine-tuning to improve mod
 Develop a web-based user interface using Gradio to allow users to upload images and receive predictions with explanations.
 
 ## 4. Model Details
+(model represented in code at master_project3.ipynb & master_project_model_1.ipynb in different phases)
 ### 4.1 Dual Input Neural Network Architecture
 Detailed breakdown of the model architecture, including image input branch, metadata input branch, and combining branches.
 ### 4.2 Augmentation and Hyperparameter Optimization
