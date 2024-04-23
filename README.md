@@ -34,7 +34,7 @@ The project aims to develop a dual-input model integrating image data and patien
 Install necessary libraries for the project.
 ### 3.2 Query the Dataset 
 Interact with the ISIC API to query the dataset, managing data retrieval and filtering based on criteria such as diagnosis and metadata.
-(provided cleaned data is available at full_metadata.csv df it is code ready, the objects are called to .drop, but are needed to locate images in workflow)
+(provided cleaned data is available at full_metadata.csv this df is code ready, the objects are called to .drop, but are needed to locate images in workflow)
 ### 3.3 Data Preparation and Preprocessing
 Handle metadata for the ISIC 2019 dataset, ensuring proper structuring and preparation for analysis.
 ### 3.4 Splitting Data and Experimentation
