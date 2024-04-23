@@ -39,6 +39,7 @@ Interact with the ISIC API to query the dataset, managing data retrieval and fil
 Handle metadata for the ISIC 2019 dataset, ensuring proper structuring and preparation for analysis.
 ### 3.4 Splitting Data and Experimentation
 Split the dataset into training, validation, and testing sets. Experiment with different model architectures and training strategies.
+(See file model_diagram for final classifier model structure, a multi input neural network)
 ### 3.5 Model Training
 Initialize data generators for training, validation, and testing. Train the dual-input neural network model using TensorFlow.
 ### 3.6 Model Summary and Visualization
@@ -65,6 +66,7 @@ Instructions on how to use the user interface and a disclaimer regarding the lim
 
 
 # 5. CancerNet-SCa: Deep Neural Network for Skin Cancer Detection
+(refer to Main_project3_model_2.ipynb in files for model)
 
 CancerNet-SCa is a groundbreaking deep neural network architecture meticulously crafted for the explicit purpose of detecting skin cancer from dermoscopy images. Developed as part of the Cancer-Net initiative, this model represents a significant leap forward in the realm of computer-aided diagnosis for dermatological conditions. Below is a detailed overview of its key features and functionalities:
 
@@ -101,7 +103,8 @@ CancerNet-SCa is a groundbreaking deep neural network architecture meticulously 
 ## Additional Features:
 - CancerNet-SCa incorporates various optimization strategies, including data augmentation for image inputs and callbacks such as early stopping and model checkpointing during training.
 - Its training regimen encompasses a dataset rich in both image and metadata features, including patient-specific information such as age and sex, augmenting the model's diagnostic capabilities.
-
+- See files in experimental_models folder for GAN attempt at supplementing images for models, and a code attempt at using a conglomeration of modern methds extracted from research papers on medical imaging and engineered through research and code chat bots. Both were not succesful.
+  
 In summation, [CancerNet-SCa](https://arxiv.org/abs/2011.10702) stands as a testament to the transformative potential of deep learning methodologies in the domain of medical imaging analysis. Its development heralds a new era of precision diagnostics for dermatological conditions, underpinned by the principles of collaboration, transparency, and accessibility.
 
 ## 5. Future Directions
