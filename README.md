@@ -104,7 +104,7 @@ Evaluation of model performance using metrics such as ROC curves and AUC values.
 Instructions on how to use the user interface and a disclaimer regarding the limitations of model predictions.
 
 <a name="ancerNet-SCa:-Deep-Neural-Network-for-Skin-Cancer-Detection"></a>
-## 5. CancerNet-SCa : Deep Neural Network for Skin Cancer Detection
+## 5. CancerNet- SCa: Deep Neural Network for Skin Cancer Detection
 (refer to Main_project3_model_2.ipynb in files for model)
 
 CancerNet-SCa is a groundbreaking deep neural network architecture meticulously crafted for the explicit purpose of detecting skin cancer from dermoscopy images. Developed as part of the Cancer-Net initiative, this model represents a significant leap forward in the realm of computer-aided diagnosis for dermatological conditions. Below is a detailed overview of its key features and functionalities:
