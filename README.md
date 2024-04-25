@@ -23,12 +23,18 @@
 6. [Future Directions](#future-directions)
 7. [References](#references)
 
+
+<a name="project-description"></a>
 ## 1. Project Description
 This project focuses on classifying skin lesions using deep learning techniques. The ISIC 2019 dataset, containing images of various skin lesions and associated metadata, is used for model training and testing.
 
+
+<a name="summary"></a>
 ## 2. Summary
 The project aims to develop a dual-input model integrating image data and patient metadata to improve diagnostic accuracy. Key aspects include data handling, model architecture design, training strategies, and evaluation methods.
 
+
+<a name="setup-instructions"></a>
 ## 3. Setup Instructions
 ### 3.1 Initial Setup and Library Installation
 Install necessary libraries for the project.
