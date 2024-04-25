@@ -19,7 +19,7 @@
    - 4.3 [Callbacks for Model Training](#callbacks-for-model-training)
    - 4.4 [Evaluation Metrics and ROC Curves](#evaluation-metrics-and-roc-curves)
    - 4.5 [Usage and Disclaimer](#usage-and-disclaimer)
-5. [CancerNet-SCa: Deep Neural Network for Skin Cancer Detection](#CancerNet-SCa: Deep Neural Network for Skin Cancer Detection)
+5. [CancerNet- SCa: Deep Neural Network for Skin Cancer Detection](#CancerNet-SCa:-Deep-Neural-Network-for-Skin-Cancer-Detection)
 6. [Future Directions](#future-directions)
 7. [References](#references)
 
@@ -36,45 +36,79 @@ The project aims to develop a dual-input model integrating image data and patien
 
 <a name="setup-instructions"></a>
 ## 3. Setup Instructions
+
+
+<a name="initial-setup-and-library-installation"></a>
 ### 3.1 Initial Setup and Library Installation
 Install necessary libraries for the project.
+
+<a name="query-the-dataset"></a>
 ### 3.2 Query the Dataset 
 Interact with the ISIC API to query the dataset, managing data retrieval and filtering based on criteria such as diagnosis and metadata.
 (provided cleaned data is available at full_metadata.csv this df is code ready, the objects are called to .drop, but are needed to locate images in workflow)
+
+<a name="data-preparation-and-preprocessing"></a>
 ### 3.3 Data Preparation and Preprocessing
 Handle metadata for the ISIC 2019 dataset, ensuring proper structuring and preparation for analysis.
+
+
+<a name="splitting-data-and-experimentation"></a>
 ### 3.4 Splitting Data and Experimentation
 Split the dataset into training, validation, and testing sets. Experiment with different model architectures and training strategies.
 (See file model_diagram for final classifier model structure, a multi input neural network)
+
+<a name="model-training"></a>
 ### 3.5 Model Training
 Initialize data generators for training, validation, and testing. Train the dual-input neural network model using TensorFlow.
+
+<a name="model-summary-and-visualization"></a>
 ### 3.6 Model Summary and Visualization
 Generate a summary of the model architecture and visualize the model's design. Evaluate predictions and generate a confusion matrix.
+
+<a name="further-model-evaluation-and-misclassification-analysis"></a>
 ### 3.7 Further Model Evaluation and Misclassification Analysis
 Evaluate the model's performance on unseen data, analyze misclassifications, and explore methods for improvement.
+
+
+<a name="knowledge-distillation-and-fine-tuning"></a>
 ### 3.8 Knowledge Distillation and Fine-tuning
 Explore techniques such as knowledge distillation and fine-tuning to improve model performance.
+
+<a name="user-interface-development"></a>
 ### 3.9 User Interface Development
 Develop a web-based user interface using Gradio to allow users to upload images and receive predictions with explanations.
 
+
+<a name="model-details"></a>
 ## 4. Model Details
 (model represented in code at master_project3.ipynb & master_project_model_1.ipynb in different phases)
+
+<a name="dual-input-neural-network-architecture"></a>
 ### 4.1 Dual Input Neural Network Architecture
 Detailed breakdown of the model architecture, including image input branch, metadata input branch, and combining branches.
+
+<a name="augmentation-and-hyperparameter-optimization"></a>
 ### 4.2 Augmentation and Hyperparameter Optimization
 Experimentation with augmentation techniques and hyperparameter optimization using Optuna.
+
+<a name="callbacks-for-model-training"></a>
 ### 4.3 Callbacks for Model Training
 Configuration of callbacks such as EarlyStopping and ModelCheckpoint for efficient model training.
+
+<a name="evaluation-metrics-and-roc-curves"></a>
 ### 4.4 Evaluation Metrics and ROC Curves
 Evaluation of model performance using metrics such as ROC curves and AUC values.
+
+<a name="usage-and-disclaimer"></a>
 ### 4.5 Usage and Disclaimer
 Instructions on how to use the user interface and a disclaimer regarding the limitations of model predictions.
 
-
-# 5. CancerNet-SCa: Deep Neural Network for Skin Cancer Detection
+<a name="ancerNet-SCa:-Deep-Neural-Network-for-Skin-Cancer-Detection"></a>
+## 5. CancerNet-SCa : Deep Neural Network for Skin Cancer Detection
 (refer to Main_project3_model_2.ipynb in files for model)
 
 CancerNet-SCa is a groundbreaking deep neural network architecture meticulously crafted for the explicit purpose of detecting skin cancer from dermoscopy images. Developed as part of the Cancer-Net initiative, this model represents a significant leap forward in the realm of computer-aided diagnosis for dermatological conditions. Below is a detailed overview of its key features and functionalities:
+
 
 ## Motivation and Background:
 - Skin cancer stands as the most prevalent form of cancer diagnosed in the U.S., not only posing substantial threats to health and well-being but also incurring significant economic burdens due to treatment costs.
@@ -113,10 +147,13 @@ CancerNet-SCa is a groundbreaking deep neural network architecture meticulously 
   
 In summation, [CancerNet-SCa](https://arxiv.org/abs/2011.10702) stands as a testament to the transformative potential of deep learning methodologies in the domain of medical imaging analysis. Its development heralds a new era of precision diagnostics for dermatological conditions, underpinned by the principles of collaboration, transparency, and accessibility.
 
-## 5. Future Directions
+<a name="future-directions"></a>
+## 6. Future Directions
 Potential enhancements and directions for future development, including model expansion and integration with medical systems.
 
-## 6. References
+
+<a name="references"></a>
+## 7. References
 - ISIC 2019 dataset
 - TensorFlow documentation
 - Gradio documentation
