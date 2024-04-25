@@ -1,4 +1,7 @@
 # Skin Lesion Classification Project
+![cover Project conterbuter](/Project-3-image-file/header.png)
+
+
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -41,6 +44,15 @@ The project aims to develop a dual-input model integrating image data and patien
 <a name="initial-setup-and-library-installation"></a>
 ### 3.1 Initial Setup and Library Installation
 Install necessary libraries for the project.
+
+<p align="center">
+  <img src="/Project-3-image-file/liberies-image-code.png" alt="importing data" width="800" >
+</p>
+
+
+
+
+
 
 <a name="query-the-dataset"></a>
 ### 3.2 Query the Dataset 
