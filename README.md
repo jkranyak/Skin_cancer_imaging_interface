@@ -46,7 +46,7 @@ The project aims to develop a dual-input model integrating image data and patien
 Install necessary libraries for the project.
 
 <p align="center">
-  <img src="/images/liberies-image-code.png" alt="importing data" width="800" >
+  <img src="/images/liberies.png" alt="importing data" width="800" >
 </p>
 
 
